@@ -6,6 +6,8 @@
 4. JDK相关包及第三方扩展
 5. Base64算法介绍
 
+[Java8 API](https://docs.oracle.com/javase/8/docs/api/index.html)
+
 
 #### 密码学术语
 明文空间，密文空间，密钥空间，密码算法（加密算法、解密算法）
