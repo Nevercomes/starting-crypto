@@ -38,7 +38,7 @@ public class PBEDemo {
         try {
             // 1. 初始化盐
             SecureRandom random = new SecureRandom();
-            byte[] salt = SecureRandom.getSeed(8);
+            byte[] salt = random.generateSeed(8);
 
             // 2. 生成密钥（口令转密钥）
             String password = "sun-lesson";
